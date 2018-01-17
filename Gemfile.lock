@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/honeniq/ruboty-gymtter.git
-  revision: 346e65bc733346a9c0ffb0d9ca2584b91dda8c05
+  revision: b56b918d905d3ab39dc11fa93183c60165203ffe
   specs:
-    ruboty-gymtter (0.1.0)
+    ruboty-gymtter (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -78,4 +78,4 @@ DEPENDENCIES
   ruboty-twitter
 
 BUNDLED WITH
-   1.11.2
+   1.16.1
