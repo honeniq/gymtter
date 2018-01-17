@@ -7,7 +7,7 @@ title: gymtter
 email: honeniq@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   gymtterは、ジムに行ったことを報告すると「えらい」と誉めてくれるTwitter上のbotです。
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/gymtter" # the subpath of your site, e.g. /blog
 url: "https://uwazumi.honeniq.net/gymtter" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gymtter
 
