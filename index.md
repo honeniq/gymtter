@@ -1,3 +1,11 @@
+---
+layout: index
+title: gymtter(じむったー)
+tags:
+  - ネットワーク
+  - セキュリティ
+---
+
 ## gymtter(じむったー)
 
 :muscle: gymtterは、ジムに行ったことを報告すると「**えらい**」と誉めてくれるTwitter上のbotです。
