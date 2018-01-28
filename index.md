@@ -1,9 +1,6 @@
 ---
 layout: index
 title: gymtter(じむったー)
-tags:
-  - ネットワーク
-  - セキュリティ
 ---
 
 ## gymtter(じむったー)
@@ -27,7 +24,7 @@ tags:
 gymtterをフォローしていると、gymtterが他の人を誉めているツイートが流れてきます。 
 元ツイートに :heart: を付けたりしてやる気を高めあいましょう。
 
-### ツイート例
+### ジム行った報告
 
 報告ツイートをするときは、gymtterが気づけるよう先頭に「gymtter」と付けてあげてください。 
 「**ジム**」もしくは「**gym**」に反応します。
@@ -37,6 +34,12 @@ gymtterをフォローしていると、gymtterが他の人を誉めているツ
 * :o:「gymtter gym」
 * :heavy_multiplication_x:「ジム」
 * :heavy_multiplication_x:「ジム @gymtter」
+
+### 報告した回数
+
+gymtterはあなたが報告した回数を覚えています。報告のときと同じように「gymtter」のあとに「**count**」と言ってみてください。
+
+* :o: 「@gymtter count」
 
 ------
 
