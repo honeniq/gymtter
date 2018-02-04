@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/honeniq/ruboty-gymtter.git
-  revision: 90cd49c725ec471e583ff7793cb40ba881b1d774
+  revision: bab5945339426be9a9f92d887721a30bd7addb73
   specs:
     ruboty-gymtter (0.1.5)
       holiday_jp
