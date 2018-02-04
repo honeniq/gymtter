@@ -1,8 +1,10 @@
 GIT
   remote: git://github.com/honeniq/ruboty-gymtter.git
-  revision: 98485b74476b4734ac81c8b24a7ed70bda084e84
+  revision: 90cd49c725ec471e583ff7793cb40ba881b1d774
   specs:
-    ruboty-gymtter (0.1.4)
+    ruboty-gymtter (0.1.5)
+      holiday_jp
+      ruboty
 
 GEM
   remote: https://rubygems.org/
@@ -20,6 +22,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.1)
     equalizer (0.0.11)
+    holiday_jp (0.6.1)
     http (3.0.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
