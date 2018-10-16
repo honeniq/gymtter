@@ -1,10 +1,20 @@
 GIT
-  remote: git://github.com/honeniq/ruboty-gymtter.git
-  revision: bab5945339426be9a9f92d887721a30bd7addb73
+  remote: https://github.com/honeniq/ruboty-gymtter.git
+  revision: ac3bca96adc9bb26522cd5a3ed41a83a53e967f9
   specs:
     ruboty-gymtter (0.1.5)
       holiday_jp
       ruboty
+
+GIT
+  remote: https://github.com/honeniq/ruboty-twitter-light.git
+  revision: 6f934481a6cfd92a3c0f07fbef88cc6149f94cf5
+  specs:
+    ruboty-twitter-light (0.0.9)
+      activesupport
+      mem
+      ruboty
+      twitter (>= 5.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -18,19 +28,19 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     buftok (0.2.0)
     concurrent-ruby (1.0.5)
-    domain_name (0.5.20170404)
+    domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.1)
     equalizer (0.0.11)
-    holiday_jp (0.6.1)
-    http (3.0.0)
+    holiday_jp (0.7.0)
+    http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
-      http-form_data (>= 2.0.0.pre.pre2, < 3)
+      http-form_data (~> 2.0)
       http_parser.rb (~> 0.6.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    http-form_data (2.0.0)
+    http-form_data (2.1.1)
     http_parser.rb (0.6.0)
     i18n (0.9.3)
       concurrent-ruby (~> 1.0)
@@ -40,7 +50,7 @@ GEM
     minitest (5.11.3)
     multipart-post (2.0.0)
     naught (1.1.0)
-    public_suffix (3.0.1)
+    public_suffix (3.0.3)
     redis (4.0.1)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
@@ -54,11 +64,6 @@ GEM
       redis
       redis-namespace
       ruboty
-    ruboty-twitter (0.0.8)
-      activesupport
-      mem
-      ruboty
-      twitter (>= 5.0.0)
     simple_oauth (0.3.1)
     slop (4.6.1)
     thread_safe (0.3.6)
@@ -77,7 +82,7 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.4)
+    unf_ext (0.0.7.5)
 
 PLATFORMS
   ruby
@@ -86,7 +91,7 @@ DEPENDENCIES
   ruboty
   ruboty-gymtter!
   ruboty-redis
-  ruboty-twitter
+  ruboty-twitter-light!
 
 BUNDLED WITH
-   1.16.1
+   1.16.4
