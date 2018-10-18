@@ -8,13 +8,13 @@ GIT
 
 GIT
   remote: https://github.com/honeniq/ruboty-twitter.git
-  revision: 72738bc6e14fa4604e69b098220bab5686f192ee
+  revision: 06c6f74cf420e5a61ef60a5937c805fa352904a8
   specs:
     ruboty-twitter (0.0.8)
       activesupport
       mem
       ruboty
-      twitter (>= 5.0.0)
+      twitter (>= 5.0.0, <= 6.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -32,15 +32,17 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.5.0)
     equalizer (0.0.11)
+    faraday (0.11.0)
+      multipart-post (>= 1.2, < 3)
     holiday_jp (0.7.0)
-    http (3.3.0)
+    http (2.2.2)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
-      http-form_data (~> 2.0)
+      http-form_data (~> 1.0.1)
       http_parser.rb (~> 0.6.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    http-form_data (2.1.1)
+    http-form_data (1.0.3)
     http_parser.rb (0.6.0)
     i18n (1.1.1)
       concurrent-ruby (~> 1.0)
@@ -67,17 +69,16 @@ GEM
     simple_oauth (0.3.1)
     slop (4.6.2)
     thread_safe (0.3.6)
-    twitter (6.2.0)
-      addressable (~> 2.3)
+    twitter (6.1.0)
+      addressable (~> 2.5)
       buftok (~> 0.2.0)
-      equalizer (~> 0.0.11)
-      http (~> 3.0)
-      http-form_data (~> 2.0)
+      equalizer (= 0.0.11)
+      faraday (~> 0.11.0)
+      http (~> 2.1)
       http_parser.rb (~> 0.6.0)
-      memoizable (~> 0.4.0)
-      multipart-post (~> 2.0)
-      naught (~> 1.0)
-      simple_oauth (~> 0.3.0)
+      memoizable (~> 0.4.2)
+      naught (~> 1.1)
+      simple_oauth (~> 0.3.1)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unf (0.1.4)
